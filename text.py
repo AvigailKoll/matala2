@@ -10,7 +10,7 @@ def revword(word):
 
 def countword():
 	try: 
-		file=open('./text.txt', 'r')
+		file=open('./text.txt', 'r').readlines()
 	except: 
 		print('file can not be open')
 		quite()
