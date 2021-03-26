@@ -9,9 +9,8 @@ def revword(word):
 	return drow
 
 def countword():
-	file=input('Enter file: ')
 	try: 
-		file=open(file, 'r').readlines()
+		file=open('./text.txt', 'r')
 	except: 
 		print('file can not be open')
 		quite()
